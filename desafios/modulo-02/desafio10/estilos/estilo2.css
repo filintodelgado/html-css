@@ -1,0 +1,134 @@
+/*Configurações basicas*/
+@font-face {
+    font-family: "IDroid";
+    src: url(../fontes/idroid.otf) format("opentype");
+}
+
+:root {
+    --cor1: #3cd983;
+    --cor2: #1a5c38;
+    --cor3: #84e1ad;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--cor3);
+}
+
+
+/*Header e navegação*/
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    color: white;
+    height: 134px;
+}
+
+header h1 {
+    padding-top: 20px;
+    margin: 0;
+}
+
+header p, header h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: var(--cor2);
+}
+
+/*Links*/
+nav a {
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+
+/*Main*/
+main {
+    max-width: 690px;
+    background-color: white;
+    margin: 0 auto;
+    text-indent: 20px;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+}
+
+main h1{
+    margin-top: 0;
+}
+
+main h1, h2{
+    text-indent: 0px;
+    font-family: IDroid, sans-serif;
+    color: var(--cor2);
+}
+
+h2 {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    font-weight: normal;
+    font-size: 1.4em;
+    text-indent: 10px;
+}
+
+h3 {
+    text-indent: 0;
+    border-radius: 15px 15px 0 0;
+    background-color: #2ea865;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.video {
+    background-color: #1a5c38;
+}
+
+iframe {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mais{
+    background-color: #c5ebd6;
+    border-radius: 15px;
+}
+
+.mais p {
+    padding: 0 12px 12px 12px;
+}
+
+ul {
+    column-count: 2;
+}
+
+
+/*Roda pé*/
+
+footer p{
+    padding: 5px;
+    text-align: center;
+    background-color: #1a5c38;
+    color: white;
+    margin-bottom: 0;
+}
